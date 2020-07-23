@@ -7,6 +7,7 @@ output "new_instance_public_IP" {
   value = aws_instance.ssn_web.public_ip
 }
 
-output "my_security_groups" {
-  value = aws_instance.ssn_web.security_groups
+
+output "new_instance_private_IP" {
+  value = aws_instance.ssn_web.private_ip
 }

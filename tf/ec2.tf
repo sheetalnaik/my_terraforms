@@ -27,7 +27,7 @@ resource "aws_instance" "ssn_web"{
     security_groups= ["${aws_security_group.default.name}"]
     
    tags = {
-    Name = "usingterraform"
+    Name = "${var.price_tag}"
   }
  
 }

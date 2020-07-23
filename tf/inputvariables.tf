@@ -10,3 +10,7 @@ default ="ami-06d66ae4e25be4617"
 variable "instance_type"{
 default ="t2.micro"
    }
+
+variable "price_tag"{
+description="tag name"
+}
